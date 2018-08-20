@@ -6,9 +6,9 @@ const Navpills = () => (
     <li className={window.location.pathname === "/" ? "active" : ""}>
       <Link to="/">Home</Link>
     </li>
-    <li className={window.location.pathname === "/about" ? "active" : ""}>
+    {/* <li className={window.location.pathname === "/about" ? "active" : ""}>
       <Link to="/about">About</Link>
-    </li>
+    </li> */}
     <li className={window.location.pathname === "/projects" ? "active" : ""}>
       <Link to="/projects">Projects</Link>
     </li>

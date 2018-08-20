@@ -16,7 +16,7 @@ const App = () => (
         <div className="row">
           <div className="col-sm-8">
             <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
+            {/* <Route exact path="/about" component={About} /> */}
             <Route exact path="/projects" component={Projects} />
             <Route path="/contact" component={Contact} />
           </div>
